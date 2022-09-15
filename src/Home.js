@@ -37,7 +37,7 @@ function Home() {
       </CardContent>
       <CardActions>
         <Button size="small"><a href="https://economictimes.indiatimes.com/blogs/world/">Learn More</a></Button>
-        <Button onClick={() => deleteHandler(item.id)}>Delete</Button>
+        <Button>Delete</Button>
         <Button className='btn-primary'>Update Block</Button>
       </CardActions>
     </Card>
