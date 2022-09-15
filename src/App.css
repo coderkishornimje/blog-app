@@ -36,3 +36,32 @@
     transform: rotate(360deg);
   }
 }
+
+/* MY Code from here */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+  /* background-color: #2196F3; */
+  padding: 20px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  /* border: 1px solid black; */
+  text-align: center;
+  font-size: 30px;
+}
+a{
+  color: rgb(106, 106, 185);
+  text-decoration: none;
+}
+span{
+  display: flex;
+  justify-content: left;
+  font-size: 20px;
+}
+.review-container{
+  margin-left: 20%;
+}
